@@ -132,21 +132,6 @@ def main():
     except Exception as e:
         print(f"⚠️  Scores computation skipped: {e}\n")
 
-    # ========== VISUALIZATION ==========
-    print("="*70)
-    print("VISUALIZATION")
-    print("="*70 + "\n")
-
-    try:
-        plot_sample_multi(X_all, X_synth, col=asset_names, x0=0)
-        print("✓ Plot displayed\n")
-    except Exception as e:
-        print(f"⚠️  Visualization skipped: {e}\n")
-
-    print("="*70)
-    print("✓ DONE!")
-    print("="*70)
-
 
 if __name__ == "__main__":
     main()

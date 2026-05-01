@@ -121,7 +121,7 @@ print("="*60)
 
 # Pour K=1 le bon h est typiquement plus petit (cf. Figure 2 du papier)
 # On teste un range adapté
-h_candidates_k1 = [0.05,0.1, 0.2, 0.4, 0.6]
+h_candidates_k1 = [0.005,0.01,0.05,0.1, 0.2]
 n_pi_candidates = [20, 50, 100]
 
 results_k1 = []
