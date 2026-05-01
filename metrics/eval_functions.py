@@ -105,12 +105,10 @@ def plot_sample_multi(X_data, X_sbts, col=None, x0=1):
 
     ax[0].set_xlabel('time')
     ax[0].set_ylabel('Data')
-    ax[0].legend()
     ax[0].tick_params(axis='both', which='major', labelsize=13)
 
     ax[1].set_xlabel('time')
-    ax[1].set_ylabel('SBTS')
-    ax[1].legend()
+    ax[1].set_ylabel('Synth')
     ax[1].tick_params(axis='both', which='major', labelsize=13)
 
 
