@@ -1,4 +1,4 @@
-from models.flow_matching import FlowMatchingOT  # nouvelle classe
+from models.flow_matching import FlowMatchingOT  
 from metrics.eval_functions import get_stats, get_scores, plot_sample_multi
 import pandas as pd
 import numpy as np
@@ -114,7 +114,7 @@ def main():
             X_synth,
             col_pred=None,
             itt=1000,
-            n_temp=10,        # 10 runs as in the SBTS paper (Section B.1)
+            n_temp=10,        # 10 runs as in the SBTS paper 
             min_max=False,
             device=device
         )
